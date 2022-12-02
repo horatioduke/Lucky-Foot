@@ -3415,7 +3415,6 @@ input, select, textarea {
 
 			#banner .logo img {
 				max-width: 100%;
-				width: 30%;
 			}
 
 		#banner h2 {
@@ -3469,10 +3468,11 @@ input, select, textarea {
 		}
 
 
-		@media screen and (max-width: 1280px) {
-
-
-
+		@media screen and (min-width: 1280px) {
+			#banner .logo img {
+			padding-left: 6rem;
+			padding-right: 6rem;
+			}
 		}
 
 		@media screen and (max-width: 980px) {
